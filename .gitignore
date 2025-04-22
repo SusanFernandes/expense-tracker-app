@@ -1,2 +1,40 @@
-/node_modules
-.env
+# Node.js dependencies
+**/node_modules/
+
+# Environment variables
+**/.env
+
+# Logs
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+**/dist/
+**/build/
+**/.turbo/
+
+# TypeScript cache
+**/*.tsbuildinfo
+
+# Next.js (if used)
+.next/
+
+# Coverage directory used by testing tools like jest
+**/coverage/
+
+# VS Code specific
+.vscode/
+
+# Prisma files
+**/prisma/dev.db
+**/prisma/dev.db-journal
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Others
+*.local
